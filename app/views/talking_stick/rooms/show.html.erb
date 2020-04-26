@@ -1,0 +1,75 @@
+<% content_for(:title) { "#{@room.name} Group Conversation" } %>
+<div class="container-fluid">
+  <div class="col-xs-6">
+    <%= hidden_field_tag :screenshot %>
+    <% if current_user.admin? %>
+      <div id="blackboard-frame">
+        <canvas id="blackboard" onmouseup="postBoard('<%= talking_stick.room_path @room %>')" height="700"></canvas>
+      </div>
+      <%= link_to "Exit", talking_stick.room_path(@room), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-default' %>
+    <% else %>
+      <div id="board">
+      </div>
+    <% end %>
+  </div>
+  <div class="col-xs-6" role="main" id="talking-stick-room" data-room-name="<%= @room.name %>">
+    <div id="talking-stick-partnervideos">
+      <div class="col-xs-3" id="my-video">
+        <div class="row">
+          <div class="col-xs-12">
+            <div id="talking-stick-localvideo-container"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" role="dialog" id="talking-stick-video-preview">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title"><%= t(:joining_room) %> "<%= @room.name %>"</h3>
+      </div>
+      <div class="modal-body">
+        <video class="col-xs-12" id="talking-stick-localvideo" poster="<%= image_path 'talking_stick/line-spinner.svg' %>" autoplay=true></video>
+        <p id="talking-stick-preview-instructions"><%= t(:video_grant_access) %></p>
+      </div>
+      <div class="modal-footer">
+        <button id="talking-stick-connect" type="button" class="btn btn-default btn-primary" data-dismiss="modal" disabled>Join</button>
+        <%= link_to "Exit", talking_stick.rooms_path, class: 'btn btn-default' %>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<script type="text/javascript">
+
+    pimg = new Image();
+    pimg.onload = init;
+    pimg.src = "data:image/png;base64,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";
+
+    url="<%= talking_stick.room_path @room %>";
+
+    function refreshPartial() {
+      <% unless current_user.admin? %>
+        getBoard(url);
+      <% end %>
+    }
+
+    $(document).ready(startTS('<%= talking_stick.room_path %>', '<%= t(:video_intro) %>'));
+    <% if current_user.admin? %>
+      $(document).ready(postBoard(url));
+    <% end %>
+
+    $(window).on('talking_stick.new_partner', function(ev, partner) {
+      $('#talking-stick-partnervideos').append(partner.videoElement);
+    });
+    $(window).on('talking_stick.partner.media', resizeVideos);
+    $(window).on('talking_stick.partner.cleanup', cleanupPartner);
+    $(window).resize(function(){
+        resizeVideos();
+        resizeBoard();
+    });
+
+</script>

@@ -1,0 +1,7 @@
+<ul class="nav nav-pills nav-stacked">
+  <div class="user_info"><%= render 'shared/user_info' %></div>
+  <li class=<%= 'active' if current_page?(root_path) %>><%= link_to "Общение", root_path %>
+  <li class=<%= 'active' if current_page?(controller: '/tests') %>><%= link_to "Тесты", tests_path %></li>
+  <li><%= link_to "Rooms", talking_stick.rooms_path %>
+  </li>
+</ul>

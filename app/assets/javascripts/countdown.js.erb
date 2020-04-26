@@ -1,0 +1,17 @@
+var hours, minutes, seconds
+function timer() {
+    hours = ('0' + Math.floor(time/3600)).slice(-2)
+    minutes = ('0' + Math.floor(time%3600/60)).slice(-2)
+    seconds = ('0' + Math.floor(time%60)).slice(-2)
+    document.getElementById("count").innerHTML = hours + ":" + minutes + ":" + seconds;
+    $('input[id="passed_time"]').val(time);
+    if (time > 0) {
+        time--;
+        setTimeout("timer()", 1000);
+    } else {
+        var result = confirm("Время на выполнение теста закончилось! Запустить тест еще раз?");
+        if (result) {
+            window.location.reload(true);
+        } else window.location.href = '/tests'
+    }
+}

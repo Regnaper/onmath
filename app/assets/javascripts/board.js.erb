@@ -1,0 +1,118 @@
+var canvas, ctx;
+var pimg, pattern;
+var curr_color, dctrl;
+
+function postBoard(url) {
+    var canv = document.getElementById("blackboard");
+    var screenshot = canv.toDataURL("image/png");
+    $.post({
+        url: url,
+        data: {
+            screenshot: screenshot
+        },
+        dataType: 'image/png',
+        async: true,
+        success: function (success) {
+        }
+    });
+}
+
+function getBoard(url) {
+    $.get({
+        url: url,
+        dataType: 'script',
+        success: function (data) {
+        }
+    });
+}
+
+function init() {
+    dctrl = { drawing: false };
+
+    canvas = document.getElementById("blackboard");
+    canvas.width = document.getElementById("blackboard-frame").offsetWidth;
+
+    canvas.addEventListener("mousedown", canvas_mousedown);
+    canvas.addEventListener("mousemove", canvas_mousemove);
+    canvas.addEventListener("mouseout", canvas_mouseout);
+    canvas.addEventListener("mouseup", canvas_mouseup);
+
+    ctx = canvas.getContext("2d");
+    ctx.lineWidth = 2;
+    ctx.lineCap = "round";
+
+    pattern = ctx.createPattern(pimg, "repeat");
+
+    curr_color = "#000";
+    /*
+    var message = "Урок";
+
+    ctx.font = "bold 36px sans-serif";
+    ctx.textAlign = "center";
+
+    ctx.globalCompositeOperation = "source-over";
+    ctx.strokeStyle = curr_color;
+    ctx.strokeText(message, canvas.width/2, 40);
+
+    ctx.globalCompositeOperation = "destination-out";
+    ctx.strokeStyle = pattern;
+    ctx.strokeText(message, canvas.width/2, 40);
+
+    */
+}
+
+function draw_line(x1, y1, x2, y2) {
+    ctx.beginPath();
+    ctx.moveTo(x1, y1);
+    ctx.lineTo(x2, y2);
+
+    ctx.globalCompositeOperation = "source-over";
+    ctx.strokeStyle = curr_color;
+    ctx.stroke();
+
+    ctx.globalCompositeOperation = "destination-out";
+    ctx.strokeStyle = pattern;
+    ctx.stroke();
+}
+
+function draw_line_ev(ev) {
+    var rect = ev.target.getBoundingClientRect();
+    var mousex = ev.clientX - rect.left;
+    var mousey = ev.clientY - rect.top;
+    draw_line(dctrl.prevx, dctrl.prevy, mousex, mousey);
+    dctrl.prevx = mousex;
+    dctrl.prevy = mousey;
+}
+
+function canvas_mousedown(ev) {
+    var rect = ev.target.getBoundingClientRect();
+
+    dctrl.drawing = true;
+
+    draw_line();
+
+    dctrl.prevx = ev.clientX - rect.left;
+    dctrl.prevy = ev.clientY - rect.top;
+}
+
+function canvas_mousemove(ev) {
+    if(dctrl.drawing) {
+        draw_line_ev(ev);
+    }
+}
+
+function canvas_mouseout(ev) {
+    if(dctrl.drawing) {
+        draw_line_ev(ev);
+    }
+    dctrl.drawing = false;
+}
+
+function canvas_mouseup(ev) {
+    dctrl.drawing = false;
+}
+
+function resizeBoard() {
+    canvas.width = document.getElementById("blackboard-frame").offsetWidth;
+    ctx.lineWidth = 2;
+}

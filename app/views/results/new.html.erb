@@ -1,0 +1,32 @@
+<% provide(:title, 'Назначить тест') %>
+<% provide(:button_text, 'Save changes') %>
+<h4>Назначение пользователям теста: <%= @test.name %></h4>
+<%= form_for @result do |f| %>
+  <table class="row table table-hover">
+    <thead class="thead-default">
+    <th class="col-md-4"><%= "Пользователь" %></th>
+    <th class="col-md-2 center"><%= "Назначить" %></th>
+    <th class="col-md-3 center"><%= "Количество попыток" %></th>
+    <th class="col-md-3 center"><%= "Время выполнения, мин." %></th>
+    </thead>
+    <% @users.each do |user|%>
+      <% result = find_result(@test, user) %>
+      <tr>
+        <td>
+          <%= gravatar_for user, size: 30 %><%= link_to user.name, user %>
+        </td>
+        <td>
+          <%= check_box_tag "users[#{user.id}]", "checked",result ? true : false%>
+        </td>
+        <td>
+          <%= text_field_tag "attempt_count[#{user.id}]", result ? result.attempt_count : "3", class: "form-control" %>
+        </td>
+        <td>
+          <%= text_field_tag "pass_time[#{user.id}]", result ? result.pass_time/60 : "20", class: "form-control" %>
+        </td>
+      </tr>
+    <% end %>
+  </table>
+  <%= hidden_field_tag :id, @test.id  %>
+  <%= f.submit "Назначить", class: "btn btn-primary col-md-2" %>
+<% end %>

@@ -1,0 +1,14 @@
+<li id="micropost-<%= micropost.id %>">
+  <%= link_to gravatar_for(micropost.user, size: 50), micropost.user %>
+  <span class="user"><%= link_to micropost.user.name, micropost.user %></span>
+  <span class="content"><%= sanitize micropost.content %></span>
+  <%= image_tag(micropost.picture.url, id: "myImg", width: "300", height: "auto",
+                onclick: "open_modal(this);") if micropost.picture? %>
+  <span class="timestamp">
+    Отправлено <%= time_ago_in_words(micropost.created_at) %> назад.
+    <% if current_user?(micropost.user) && !micropost.content.start_with?("Мной") || current_user.admin?%>
+      <%= link_to "delete", micropost, method: :delete,
+                  data: { confirm: "You sure?" } %>
+    <% end %>
+  </span>
+</li>

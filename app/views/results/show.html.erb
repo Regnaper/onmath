@@ -1,0 +1,21 @@
+<% provide(:title, "Результат теста: #{@test.name}") %>
+<h2><%= "Результат теста: #{@test.name}" %></h2>
+<% if @result.results.any? %>
+  <table class="row table table-hover table-bordered result-table">
+    <thead class="thead-default">
+      <th class="col-md-7"><%= "Вопрос" %></th>
+      <th class="col-md-2 center"><%= "Ответ" %></th>
+      <th class="col-md-3 center"><%= "Правильный ответ" %></th>
+    </thead>
+    <%= render 'questions' %>
+  </table>
+  <div class="row">
+    <h4><%= "Правильно решено: #{number_to_percentage(@percent, precision: 2)}" %></h4>
+    <% if @percent < 70 %>
+      <h4><%= "Вы набрали менее 70%. Тест не пройден." %></h4>
+      <%= link_to "Попробовать еще раз?", edit_result_path(@test) %>
+    <% else %>
+      <h4><%= "Тест пройден!" %></h4>
+    <% end %>
+  </div>
+<% end %>

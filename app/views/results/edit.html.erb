@@ -1,0 +1,52 @@
+<% provide(:title, 'Пройти тест') %>
+    <h1><%= @test.name %></h1>
+    <div class="row">
+      <h4>Осталось попыток: <%= @result.attempt_count + 1 %></h4>
+      <h4>Осталось времени: <b id="count"></b></h4>
+    </div>
+<ul class="tests">
+  <%= form_for(@result) do |f| %>
+    <% @test.questions.each_with_index do |question, index| %>
+      <li>
+        <table class="table-hover btn-group-vertical col-md-12" data-toggle="buttons">
+          <div id="name" <%= "class=bg-danger" if action_name == 'update' && params[:"#{index}"].blank? %>>
+            <%= "#{index+1}. " + question.question %>
+          </div>
+          <% if question.answers.length == 1 %>
+            <tr>
+              <td>
+                <%= text_field_tag index, params[:"#{index}"], class: 'form-control' %>
+              </td>
+            </tr>
+          <% else %>
+            <% question.answers.each_with_index do |answer, ans_index| %>
+              <tr class="<%= if ans_index.to_s == params[:"#{index}"]
+                               "btn col-md-12 radio-label bg-info"
+                             else
+                               "btn col-md-12 radio-label"
+                             end %>">
+                <td>
+                  <%= radio_button_tag index, ans_index,
+                                       ans_index.to_s == params[:"#{index}"] ? true : false %>
+                </td>
+                <td>&nbsp;&nbsp;</td>
+                <td>
+                  <%= label_tag answer.answer %>
+                </td>
+              </tr>
+              <tr></tr>
+            <% end %>
+          <% end %>
+
+        </table>
+      </li>
+    <% end %>
+    <%= hidden_field_tag :test_id, @test.id  %>
+    <%= hidden_field_tag :passed_time %>
+    <%= f.submit "Ответить", class: "btn btn-primary" %>
+  <% end %>
+</ul>
+<script>
+    time = <%= @pass_time %>;
+    timer();
+</script>

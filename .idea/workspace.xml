@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="134d48de-6795-4525-a977-4611781797ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Rails teacher: development" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Rails teacher: development" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Rails teacher: development" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Rails teacher: development" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="microposts: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="GeneratorOptions">
+    <option name="FORCE" value="true" />
+    <option name="VCS_SHOW_CONFIRMATION" value="true" />
+    <option name="ENVIRONMENT" value="development" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1Ppek3d3uHhzRLIEHF56OWQPXmx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
+    <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ruby.i18n.create.property.last_used_locale_file" value="русский [models/ru.yml]" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/app/assets/images" />
+      <recent name="$PROJECT_DIR$/config/locales" />
+      <recent name="$PROJECT_DIR$/vendor/assets/javascripts" />
+      <recent name="$PROJECT_DIR$/app/views/questions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/images" />
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/app/assets/javascripts" />
+      <recent name="$PROJECT_DIR$/app/views/layouts" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="rake db:rollback" />
+      <command value="rake db:reset" />
+      <command value="bundle Install" />
+      <command value="rake db:migrate" />
+      <command value="rake db:seed" />
+      <command value="rake dev:cache" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Rails.Development: teacher">
+    <configuration name="Development: teacher" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="teacher" />
+      <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="-b ssl://0.0.0.0:3000?key=server.key&amp;cert=server.crt" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="puma" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Production: teacher" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="teacher" />
+      <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev:cache: teacher" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="teacher" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="dev:cache" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spec: teacher" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="teacher" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test: teacher" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="teacher" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="All tests in test: teacher" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <module name="teacher" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/{*_test,test_*,*_spec}.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_content_should_be_present" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="teacher" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/models/micropost_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_content_should_be_present" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_login_with_valid_infor..." type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="teacher" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/integration/users_login_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/{*_test,test_*,*_spec}.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_login_with_valid_information_followed_by_logout" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_should_redirect_destro..." type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="teacher" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/controllers/microposts_controller_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_should_redirect_destroy_for_wrong_micropost" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Rails.Development: teacher" />
+      <item itemvalue="Rails.Production: teacher" />
+      <item itemvalue="Rake.spec: teacher" />
+      <item itemvalue="Rake.test: teacher" />
+      <item itemvalue="Rake.dev:cache: teacher" />
+      <item itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: teacher" />
+      <item itemvalue="Test::Unit/Shoulda/Minitest.test_content_should_be_present" />
+      <item itemvalue="Test::Unit/Shoulda/Minitest.test_login_with_valid_infor..." />
+      <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_redirect_destro..." />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Rake.dev:cache: teacher" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: teacher" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_login_with_valid_infor..." />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_redirect_destro..." />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_content_should_be_present" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="false" RAILS_SPRING_PRE_LOADER_OPTION="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="134d48de-6795-4525-a977-4611781797ce" name="Default Changelist" comment="" />
+      <created>1557410006923</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557410006923</updated>
+      <workItem from="1557410009252" duration="7327000" />
+      <workItem from="1557501670030" duration="5811000" />
+      <workItem from="1557661183546" duration="4332000" />
+      <workItem from="1557666042294" duration="9649000" />
+      <workItem from="1557937888610" duration="3655000" />
+      <workItem from="1558003676076" duration="2927000" />
+      <workItem from="1558113955049" duration="3391000" />
+      <workItem from="1558117367995" duration="3039000" />
+      <workItem from="1558194349212" duration="7477000" />
+      <workItem from="1558202634222" duration="381000" />
+      <workItem from="1558367092445" duration="1576000" />
+      <workItem from="1558368691021" duration="2973000" />
+      <workItem from="1558547467905" duration="4388000" />
+      <workItem from="1559321627969" duration="439000" />
+      <workItem from="1559322086045" duration="5063000" />
+      <workItem from="1560076464611" duration="1792000" />
+      <workItem from="1560078897437" duration="1790000" />
+      <workItem from="1560080743345" duration="1788000" />
+      <workItem from="1560082553903" duration="1790000" />
+      <workItem from="1560084405271" duration="1077000" />
+      <workItem from="1560092168743" duration="327000" />
+      <workItem from="1560092511394" duration="1793000" />
+      <workItem from="1560094459236" duration="447000" />
+      <workItem from="1560094964407" duration="1038000" />
+      <workItem from="1560099356656" duration="1792000" />
+      <workItem from="1560101164769" duration="267000" />
+      <workItem from="1560101447768" duration="1251000" />
+      <workItem from="1560451048421" duration="927000" />
+      <workItem from="1560453423070" duration="1488000" />
+      <workItem from="1566474275015" duration="5000" />
+      <workItem from="1566482891155" duration="5000" />
+      <workItem from="1566483477222" duration="1195000" />
+      <workItem from="1566485146974" duration="47000" />
+      <workItem from="1566575606608" duration="637000" />
+      <workItem from="1566659924611" duration="1947000" />
+      <workItem from="1566661979475" duration="552000" />
+      <workItem from="1566662546715" duration="754000" />
+      <workItem from="1566663322702" duration="3840000" />
+      <workItem from="1566669487390" duration="488000" />
+      <workItem from="1566670149185" duration="3000" />
+      <workItem from="1566670283977" duration="636000" />
+      <workItem from="1566818912223" duration="5074000" />
+      <workItem from="1566899572888" duration="4000" />
+      <workItem from="1566900136457" duration="489000" />
+      <workItem from="1566901239755" duration="86000" />
+      <workItem from="1566902128419" duration="5381000" />
+      <workItem from="1567092090067" duration="5531000" />
+      <workItem from="1567167153318" duration="408000" />
+      <workItem from="1567265266338" duration="2384000" />
+      <workItem from="1567267987467" duration="1185000" />
+      <workItem from="1567327469901" duration="754000" />
+      <workItem from="1567889206032" duration="8000" />
+      <workItem from="1570201004171" duration="1669000" />
+      <workItem from="1570202692350" duration="1433000" />
+      <workItem from="1570265724022" duration="1794000" />
+      <workItem from="1570267644036" duration="533000" />
+      <workItem from="1573377391026" duration="426000" />
+      <workItem from="1573378298147" duration="847000" />
+      <workItem from="1573379233604" duration="2067000" />
+      <workItem from="1573382676730" duration="48000" />
+      <workItem from="1573382736527" duration="80000" />
+      <workItem from="1573382973322" duration="35000" />
+      <workItem from="1573383656173" duration="16000" />
+      <workItem from="1573383691868" duration="41000" />
+      <workItem from="1573384318657" duration="10532000" />
+      <workItem from="1573912075645" duration="154000" />
+      <workItem from="1573912250328" duration="10023000" />
+      <workItem from="1573976205029" duration="14673000" />
+      <workItem from="1574262753049" duration="8947000" />
+      <workItem from="1574597998681" duration="17669000" />
+      <workItem from="1574682189324" duration="4446000" />
+      <workItem from="1574699887054" duration="5694000" />
+      <workItem from="1574871213657" duration="13551000" />
+      <workItem from="1575045739902" duration="13303000" />
+      <workItem from="1575304893265" duration="4148000" />
+      <workItem from="1575738780696" duration="12700000" />
+      <workItem from="1576086870809" duration="587000" />
+      <workItem from="1576152779208" duration="18597000" />
+      <workItem from="1576236812908" duration="15789000" />
+      <workItem from="1576258008050" duration="131000" />
+      <workItem from="1576262245782" duration="1305000" />
+      <workItem from="1576265026028" duration="1157000" />
+      <workItem from="1576318941699" duration="3820000" />
+      <workItem from="1576326080046" duration="2938000" />
+      <workItem from="1576494220344" duration="18976000" />
+      <workItem from="1576965221154" duration="445000" />
+      <workItem from="1576966140310" duration="193000" />
+      <workItem from="1576966536751" duration="13256000" />
+      <workItem from="1577051639142" duration="12910000" />
+      <workItem from="1577220605902" duration="9083000" />
+      <workItem from="1577231775649" duration="6572000" />
+      <workItem from="1577307447642" duration="4094000" />
+      <workItem from="1577311913461" duration="14531000" />
+      <workItem from="1577371370427" duration="13157000" />
+      <workItem from="1577385110778" duration="5864000" />
+      <workItem from="1577391227242" duration="116000" />
+      <workItem from="1577468998740" duration="4861000" />
+      <workItem from="1578042100097" duration="15074000" />
+      <workItem from="1583235886730" duration="1570000" />
+      <workItem from="1584217989159" duration="130000" />
+      <workItem from="1586254560826" duration="941000" />
+      <workItem from="1586255517666" duration="1798000" />
+      <workItem from="1586257338224" duration="636000" />
+      <workItem from="1586258005351" duration="154000" />
+      <workItem from="1586258283902" duration="138000" />
+      <workItem from="1586594104767" duration="1760000" />
+      <workItem from="1586596275323" duration="812000" />
+      <workItem from="1586597416614" duration="1821000" />
+      <workItem from="1586599260842" duration="1429000" />
+      <workItem from="1586601074645" duration="3000" />
+      <workItem from="1586602998929" duration="1256000" />
+      <workItem from="1586604306093" duration="1792000" />
+      <workItem from="1586606119199" duration="1187000" />
+      <workItem from="1586607336088" duration="1794000" />
+      <workItem from="1586609149245" duration="410000" />
+      <workItem from="1586610719939" duration="1299000" />
+      <workItem from="1586612167636" duration="1801000" />
+      <workItem from="1586614135367" duration="1294000" />
+      <workItem from="1586615807766" duration="1291000" />
+      <workItem from="1586617180223" duration="479000" />
+      <workItem from="1586618171115" duration="1193000" />
+      <workItem from="1586678084715" duration="1787000" />
+      <workItem from="1586681405035" duration="770000" />
+      <workItem from="1586682189578" duration="1336000" />
+      <workItem from="1586683542811" duration="1487000" />
+      <workItem from="1586685050093" duration="1837000" />
+      <workItem from="1586686912742" duration="1793000" />
+      <workItem from="1586688793900" duration="1792000" />
+      <workItem from="1586690604914" duration="1794000" />
+      <workItem from="1586692559847" duration="888000" />
+      <workItem from="1586708483248" duration="1791000" />
+      <workItem from="1586762468140" duration="864000" />
+      <workItem from="1586799717289" duration="1594000" />
+      <workItem from="1586801625517" duration="649000" />
+      <workItem from="1586888333422" duration="12000" />
+      <workItem from="1586964478543" duration="8525000" />
+      <workItem from="1586973625487" duration="2196000" />
+      <workItem from="1587659921417" duration="439000" />
+      <workItem from="1587809070983" duration="11000" />
+      <workItem from="1587827893259" duration="7000" />
+      <workItem from="1587908988413" duration="513000" />
+    </task>
+    <task id="LOCAL-00001" summary="push heroku">
+      <created>1557410856201</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557410856201</updated>
+    </task>
+    <task id="LOCAL-00002" summary="push heroku2">
+      <created>1557411499158</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557411499158</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ad hellopage">
+      <created>1557411801345</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557411801345</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add hellopage">
+      <created>1557411842891</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557411842891</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add account activation">
+      <created>1560077285095</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560077285095</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add picture">
+      <created>1560452619367</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560452619367</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add picture test">
+      <created>1560454543069</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560454543069</updated>
+    </task>
+    <task id="LOCAL-00008" summary="True getUserMedia">
+      <created>1566825348926</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1566825348926</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update talking_stick">
+      <created>1567093742585</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1567093742585</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update talking_stick">
+      <created>1567268555047</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1567268555047</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Validate room's name">
+      <created>1567269131031</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1567269131031</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Исправление имени хоста в production для отправки email с heroku">
+      <created>1574684593814</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1574684593814</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Закончены время на прохождение теста и количество попыток прохождения">
+      <created>1576262933172</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1576262933172</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Добавлена доска для рисования и её передача и приём в комнате">
+      <created>1577390739577</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1577390739577</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Доска обновляется через изображение в assets">
+      <created>1578050607099</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1578050607099</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Доска обновляется через изображение в assets">
+      <created>1578051086519</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1578051086520</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Доска обновляется через изображение в assets">
+      <created>1578051812737</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1578051812737</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Доска обновляется через изображение в assets">
+      <created>1578052805912</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1578052805912</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Доска обновляется через изображение в assets">
+      <created>1578053393296</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1578053393296</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Доска обновляется через изображение в assets">
+      <created>1578053676276</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1578053676276</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Доска обновляется через изображение в assets">
+      <created>1578055143269</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1578055143269</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Доска обновляется через изображение в assets">
+      <created>1578056570754</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1578056570754</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Доска обновляется через изображение в assets">
+      <created>1578057018955</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1578057018955</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Доска обновляется через изображение в assets">
+      <created>1578058842913</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1578058842913</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Отключение кэширования в Production">
+      <created>1586616832475</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1586616832476</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Изображение доски отправляется после клика мыши на доске">
+      <created>1586678332357</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1586678332357</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Изображение доски отправляется после клика мыши на доске">
+      <created>1586678380204</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1586678380204</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Устранен баг с отправкой доски при старте урока">
+      <created>1587659992566</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1587659992566</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="push heroku" />
+    <MESSAGE value="push heroku2" />
+    <MESSAGE value="ad hellopage" />
+    <MESSAGE value="add hellopage" />
+    <MESSAGE value="Add account activation" />
+    <MESSAGE value="Add picture" />
+    <MESSAGE value="Add picture test" />
+    <MESSAGE value="True getUserMedia" />
+    <MESSAGE value="Update talking_stick" />
+    <MESSAGE value="Validate room's name" />
+    <MESSAGE value="Исправление имени хоста в production для отправки email с heroku" />
+    <MESSAGE value="Закончены время на прохождение теста и количество попыток прохождения" />
+    <MESSAGE value="Добавлена доска для рисования и её передача и приём в комнате" />
+    <MESSAGE value="Доска обновляется через изображение в assets" />
+    <MESSAGE value="Отключение кэширования в Production" />
+    <MESSAGE value="Изображение доски отправляется после клика мыши на доске" />
+    <MESSAGE value="Устранен баг с отправкой доски при старте урока" />
+    <option name="LAST_COMMIT_MESSAGE" value="Устранен баг с отправкой доски при старте урока" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="590" y="197" width="800" height="719" key="#Plugins" timestamp="1587909192983">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="590" y="197" width="800" height="719" key="#Plugins/70.27.1850.1053@70.27.1850.1053" timestamp="1587909192983" />
+    <state x="527" y="358" width="926" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586603979363">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="527" y="358" width="926" height="397" key="#com.intellij.fileTypes.FileTypeChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1586603979363" />
+    <state x="550" y="149" width="912" height="814" key="CommitChangelistDialog2" timestamp="1587659992414">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="550" y="149" width="912" height="814" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1587659992414" />
+    <state x="245" y="121" width="1480" height="879" key="DiffContextDialog" timestamp="1587660048977">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="245" y="121" width="1480" height="879" key="DiffContextDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1587660048977" />
+    <state width="1804" height="278" key="GridCell.Tab.0.bottom" timestamp="1586975822574">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="278" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1586975822574" />
+    <state width="1804" height="278" key="GridCell.Tab.0.center" timestamp="1586975822574">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="278" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1586975822574" />
+    <state width="1804" height="278" key="GridCell.Tab.0.left" timestamp="1586975822573">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="278" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1586975822573" />
+    <state width="1804" height="278" key="GridCell.Tab.0.right" timestamp="1586975822574">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="278" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1586975822574" />
+    <state width="1804" height="278" key="GridCell.Tab.1.bottom" timestamp="1586975822575">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="278" key="GridCell.Tab.1.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1586975822575" />
+    <state width="1804" height="278" key="GridCell.Tab.1.center" timestamp="1586975822575">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="278" key="GridCell.Tab.1.center/70.27.1850.1053@70.27.1850.1053" timestamp="1586975822575" />
+    <state width="1804" height="278" key="GridCell.Tab.1.left" timestamp="1586975822574">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="278" key="GridCell.Tab.1.left/70.27.1850.1053@70.27.1850.1053" timestamp="1586975822574" />
+    <state width="1804" height="278" key="GridCell.Tab.1.right" timestamp="1586975822575">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="278" key="GridCell.Tab.1.right/70.27.1850.1053@70.27.1850.1053" timestamp="1586975822575" />
+    <state x="700" y="271" width="580" height="571" key="MultipleFileMergeDialog" timestamp="1587660018887">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="700" y="271" width="580" height="571" key="MultipleFileMergeDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1587660018887" />
+    <state x="484" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1586964521857">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="484" y="188" width="1022" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1586964521857" />
+    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1587660057436">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1587660057436" />
+    <state x="170" y="127" width="1650" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586975075443">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="170" y="127" width="1650" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1586975075443" />
+    <state x="687" y="285" width="704" height="522" key="find.popup" timestamp="1586971654840">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="687" y="285" width="704" height="522" key="find.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1586971654840" />
+    <state x="677" y="421" width="625" height="272" key="git4idea.rebase.GitRebaseDialog" timestamp="1586617238773">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="677" y="421" width="625" height="272" key="git4idea.rebase.GitRebaseDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1586617238773" />
+    <state x="773" y="443" width="434" height="228" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1587909068958">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="773" y="443" width="434" height="228" key="git4idea.remote.GitConfigureRemotesDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1587909068958" />
+    <state x="659" y="253" width="672" height="677" key="run.anything.popup" timestamp="1586257971547">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="659" y="253" width="672" height="677" key="run.anything.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1586257971547" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/teacher@test_login_with_invalid_information__teacher.rcov" NAME="test_login_with_invalid_information: teacher Coverage Results" MODIFIED="1558006997937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_valid_signup_information__teacher.rcov" NAME="test_valid_signup_information: teacher Coverage Results" MODIFIED="1558114369904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@All_tests_in_test__teacher.rcov" NAME="All tests in test: teacher Coverage Results" MODIFIED="1575308948790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/math@dev_cache__teacher.rcov" NAME="dev:cache: teacher Coverage Results" MODIFIED="1586595799800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_login_with_valid_information_followed_by_logout__teacher.rcov" NAME="test_login_with_valid_information_followed_by_logout: teacher Coverage Results" MODIFIED="1558117864324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@db_rollback__teacher.rcov" NAME="db:rollback: teacher Coverage Results" MODIFIED="1576154979638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_should_redirect_destroy_for_wrong_micropost__teacher.rcov" NAME="test_should_redirect_destroy_for_wrong_micropost: teacher Coverage Results" MODIFIED="1560101068018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@db_drop__teacher.rcov" NAME="db:drop: teacher Coverage Results" MODIFIED="1573393237202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@Run_test__UserTest___teacher.rcov" NAME="Run test 'UserTest': teacher Coverage Results" MODIFIED="1557664098696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@Run_test__UsersShowTest___teacher.rcov" NAME="Run test 'UsersShowTest': teacher Coverage Results" MODIFIED="1560095040230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_associated_microposts_should_be_destroyed__teacher.rcov" NAME="test_associated_microposts_should_be_destroyed: teacher Coverage Results" MODIFIED="1560093610274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@db_seed__teacher.rcov" NAME="db:seed: teacher Coverage Results" MODIFIED="1573393283137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@routes__teacher.rcov" NAME="routes: teacher Coverage Results" MODIFIED="1567167173638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@TestTest.rcov" NAME="TestTest Coverage Results" MODIFIED="1573380593939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_password_reset__teacher.rcov" NAME="test_password_reset: teacher Coverage Results" MODIFIED="1560078088313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@IRB_console__teacher.rcov" NAME="IRB console: teacher Coverage Results" MODIFIED="1557938334299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_invalid_signup_information__teacher.rcov" NAME="test_invalid_signup_information: teacher Coverage Results" MODIFIED="1557940510910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_show_activated_user_information__teacher.rcov" NAME="test_show_activated_user_information: teacher Coverage Results" MODIFIED="1560084770316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/math@test_valid_signup_informati___.rcov" NAME="test_valid_signup_informati... Coverage Results" MODIFIED="1577310875244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_unsuccessful_edit__teacher.rcov" NAME="test_unsuccessful_edit: teacher Coverage Results" MODIFIED="1558368101345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/math@test_should_redirect_update___.rcov" NAME="test_should_redirect_update... Coverage Results" MODIFIED="1577310065668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@Run_test__MicropostTest___teacher.rcov" NAME="Run test 'MicropostTest': teacher Coverage Results" MODIFIED="1560092856510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_should_not_allow_the_admin_attribute_to_be_edited_via_the_web__teacher.rcov" NAME="test_should_not_allow_the_admin_attribute_to_be_edited_via_the_web: teacher Coverage Results" MODIFIED="1558552041976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/math@test_login_with_valid_infor___.rcov" NAME="test_login_with_valid_infor... Coverage Results" MODIFIED="1578046901260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_authenticated__should_return_false_for_a_user_with_nil_digest__teacher.rcov" NAME="test_authenticated?_should_return_false_for_a_user_with_nil_digest: teacher Coverage Results" MODIFIED="1558118195232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_current_user_returns_nil_when_remember_digest_is_wrong__teacher.rcov" NAME="test_current_user_returns_nil_when_remember_digest_is_wrong: teacher Coverage Results" MODIFIED="1558201705707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/math@All_tests_in_test__teacher.rcov" NAME="All tests in test: teacher Coverage Results" MODIFIED="1578054738401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_should_redirect_index_when_not_logged_in__teacher.rcov" NAME="test_should_redirect_index_when_not_logged_in: teacher Coverage Results" MODIFIED="1558370689234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@QuestionTest.rcov" NAME="QuestionTest Coverage Results" MODIFIED="1573385265503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/math@db_migrate__teacher.rcov" NAME="db:migrate: teacher Coverage Results" MODIFIED="1576967354954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@db_reset__teacher.rcov" NAME="db:reset: teacher Coverage Results" MODIFIED="1576167757848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_login_with_valid_information__teacher.rcov" NAME="test_login_with_valid_information: teacher Coverage Results" MODIFIED="1558007060986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_all__teacher.rcov" NAME="test:all: teacher Coverage Results" MODIFIED="1557938386717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@AnswerTest.rcov" NAME="AnswerTest Coverage Results" MODIFIED="1573385635037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@UserMailerTest.rcov" NAME="UserMailerTest Coverage Results" MODIFIED="1573912368639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/math@db_seed__teacher.rcov" NAME="db:seed: teacher Coverage Results" MODIFIED="1576967491363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@Run_test__UsersSignupTest___teacher.rcov" NAME="Run test 'UsersSignupTest': teacher Coverage Results" MODIFIED="1557939151719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test__teacher.rcov" NAME="test: teacher Coverage Results" MODIFIED="1573380621215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@Run_test__UsersControllerTest___teacher.rcov" NAME="Run test 'UsersControllerTest': teacher Coverage Results" MODIFIED="1558369580782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@All_tests_in_controllers__teacher.rcov" NAME="All tests in controllers: teacher Coverage Results" MODIFIED="1573380671038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/math@test_content_should_be_present.rcov" NAME="test_content_should_be_present Coverage Results" MODIFIED="1577311741987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/math@Production__teacher.rcov" NAME="Production: teacher Coverage Results" MODIFIED="1586595805887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_successful_edit_with_friendly_forwarding__teacher.rcov" NAME="test_successful_edit_with_friendly_forwarding: teacher Coverage Results" MODIFIED="1559322138730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@Run_test__MicropostsControllerTest___teacher.rcov" NAME="Run test 'MicropostsControllerTest': teacher Coverage Results" MODIFIED="1560099568818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@Run_test__users_login_test___teacher.rcov" NAME="Run test 'users_login_test': teacher Coverage Results" MODIFIED="1558194650552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_successful_edit__teacher.rcov" NAME="test_successful_edit: teacher Coverage Results" MODIFIED="1558368660371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@Run_test__SiteLayoutTest___teacher.rcov" NAME="Run test 'SiteLayoutTest': teacher Coverage Results" MODIFIED="1558551438698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@db_migrate__teacher.rcov" NAME="db:migrate: teacher Coverage Results" MODIFIED="1573393243691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_micropost_sidebar_count__teacher.rcov" NAME="test_micropost_sidebar_count: teacher Coverage Results" MODIFIED="1560453888386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_index_as_admin_including_pagination_and_delete_links__teacher.rcov" NAME="test_index_as_admin_including_pagination_and_delete_links: teacher Coverage Results" MODIFIED="1560083158421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/math@test_should_redirect_destro___.rcov" NAME="test_should_redirect_destro... Coverage Results" MODIFIED="1577390597572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_login_with_remembering__teacher.rcov" NAME="test_login_with_remembering: teacher Coverage Results" MODIFIED="1558195745408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_micropost_interface__teacher.rcov" NAME="test_micropost_interface: teacher Coverage Results" MODIFIED="1566483679587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_show_user_information.rcov" NAME="test_show_user_information Coverage Results" MODIFIED="1574615689434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/math@Development__teacher.rcov" NAME="Development: teacher Coverage Results" MODIFIED="1586973694171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_profile_display.rcov" NAME="test_profile_display Coverage Results" MODIFIED="1574615824972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_expired_token__teacher.rcov" NAME="test_expired_token: teacher Coverage Results" MODIFIED="1560080958045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_password_resets.rcov" NAME="test_password_resets Coverage Results" MODIFIED="1574701622613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@Development__teacher.rcov" NAME="Development: teacher Coverage Results" MODIFIED="1576511784215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/math@All_tests_in_controllers__teacher.rcov" NAME="All tests in controllers: teacher Coverage Results" MODIFIED="1577309886255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@test_show_user_information__teacher.rcov" NAME="test_show_user_information: teacher Coverage Results" MODIFIED="1560095316347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/math@test_micropost_interface.rcov" NAME="test_micropost_interface Coverage Results" MODIFIED="1577311669198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@Run_test__sessions_helper_test___teacher.rcov" NAME="Run test 'sessions_helper_test': teacher Coverage Results" MODIFIED="1558194870636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@All_tests_in_models__teacher.rcov" NAME="All tests in models: teacher Coverage Results" MODIFIED="1573380661029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+    <SUITE FILE_PATH="coverage/teacher@spec__teacher.rcov" NAME="spec: teacher Coverage Results" MODIFIED="1573380609669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="teacher" />
+  </component>
+</project>

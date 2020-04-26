@@ -1,0 +1,20 @@
+<% result = user_test_result(test, @user_results) %>
+
+<% if current_user.admin?  %>
+  <li>
+    <h4><%= test.name %></h4>
+    <%= link_to "редактировать", edit_test_path(test) %>
+    | <%= link_to "удалить", test, method: :delete,
+                  data: { confirm: "You sure?" } %>
+    | <%= link_to "назначить пользователей", new_result_path(:id => test.id) %>
+    | <%= link_to "пройти", edit_result_path(:id => test.id) if result %>
+    | <%= link_to "result", result_path(result.id) if result %>
+  </li>
+<% else %>
+  <% if result %>
+    <li>
+      <h4><%= link_to test.name, edit_result_path(:id => test.id)%></h4>
+      <%= link_to "result", result_path(result.id) if result%>
+    </li>
+  <% end %>
+<% end %>

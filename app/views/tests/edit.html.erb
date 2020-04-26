@@ -1,0 +1,48 @@
+<% provide(:title, 'Edit test') %>
+<% provide(:button_text, 'Save changes') %>
+<h1><%= @test.name %></h1>
+<div class="row">
+  <aside class="col-md-4">
+    <%= form_for(@test) do |f| %>
+      <%= render 'shared/error_messages', object: f.object %>
+
+      <%= f.label :name %>
+      <%= f.text_field :name, class: 'form-control' %>
+
+      <%= f.label :theme %>
+      <%= f.text_field :theme, class: 'form-control' %>
+
+      <%= f.label :subtheme %>
+      <%= f.text_field :subtheme, class: 'form-control' %>
+
+      <%= f.submit yield(:button_text), class: "btn btn-primary" %>
+    <% end %>
+  </aside>
+
+  <div class="col-md-8">
+    <ul class="tests">
+      <% @questions.each_with_index do |question, index| %>
+        <li>
+          <div id="name" ><%= "#{index+1}. " + question.question %></div>
+          <% if current_user.admin?  %>
+            <%= link_to "edit", edit_question_path(question) %>
+            | <%= link_to "delete", question, method: :delete,
+                          data: { confirm: "You sure?" } %>
+          <% end %>
+        </li>
+      <% end %>
+
+      <%= form_for(@question) do |f| %>
+        <%= render 'shared/error_messages', object: f.object %>
+
+        <%= f.label "New question" %>
+        <%= f.text_field :question, class: 'form-control' %>
+
+        <%= hidden_field_tag(:test, @test.id) %>
+
+        <%= f.submit "Create", class: "btn btn-primary" %>
+      <% end %>
+
+    </ul>
+  </div>
+</div>

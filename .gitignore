@@ -1,0 +1,28 @@
+# Более детально об игнорировании файлов
+# на https://help.github.com/articles/ignoring-files.
+#
+# Если окажется, что вы игнорируете файлы, создаваемые текстовым редактором или
+# операционной системой, то вероятно будет лучше добавить глобальное игнорирование:
+#   git config --global core.excludesfile '~/.gitignore_global'
+
+# Игнорирование настроек bundler'а.
+/.bundle
+
+# Игнорирование базы данных SQLite по умолчанию.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Игнорирование всех логов и временных файлов.
+/log/*.log
+/tmp
+
+# Игнорирование файлов Spring'а.
+/spring/*.pid
+
+# Игнорирование загруженных тестовых изображений.
+/public/uploads
+
+/server.crt
+/server.key
+
+/config/secrets.yml

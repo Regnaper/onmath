@@ -1,0 +1,24 @@
+<% @questions.each_with_index do |question, index| %>
+  <% answer = question.answers.length == 1 ? @result.results[index][:answer] : question.answers[@result.results[index].to_i].answer %>
+  <% right_answer = question.answers[question.right_answer-1].answer %>
+  <% if right_answer == answer %>
+    <tr class="bg-success">
+  <% else %>
+    <tr class="bg-danger">
+  <% end %>
+      <td><%= "#{index+1}. #{question.question}" %></td>
+      <td class="center"><%= answer %></td>
+      <td class="center">
+        <% if current_user.admin?%>
+          <%= right_answer %>
+        <% else %>
+          <%= right_answer == answer ? "+" : "-" %>
+        <% end %>
+      </td>
+  </tr>
+<% end %>
+<thead class="thead">
+  <th><%= "Итого:" %></th>
+  <th class="center"> <%= "ответов: #{@questions.length}" %></th>
+  <th class="center"><%= "правильных: #{@right_answers_count}" %></th>
+</thead>

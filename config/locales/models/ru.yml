@@ -1,0 +1,36 @@
+ru:
+  activerecord:
+    models:
+      micropost: Сообщение
+      question: Вопрос
+      answer: Ответ
+      result: Результат
+      user: Пользователь
+      test: Тест
+    attributes:
+      user:
+        name: "Имя"
+        email: "E-mail"
+        password: "Пароль"
+        password_confirmation: "Подтверждение пароля"
+      micropost:
+        content: "Сообщение"
+        picture: "Картинка"
+        picture_content_type: "Формат картинки"
+        picture_file_size: "Размер картинки"
+      question:
+        question: "Вопрос"
+        image_question: "Картинка"
+        image_question_content_type: "Формат картинки"
+        image_question_file_size: "Размер картинки"
+        right_answer: "Правильный ответ"
+      answer:
+        answer: "Ответ"
+      result:
+        results: "Результаты"
+        attempt_count: "Количество попыток"
+        pass_time: "Время прохождения"
+      test:
+        name: "Название"
+        theme: "Тема"
+        subtheme: "Подтема"
