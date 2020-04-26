@@ -1,0 +1,8 @@
+function open_modal(img) {
+  var modal = document.getElementById('myModal');
+  var modalImg = document.getElementById('img');
+  modal.style.display = "block";
+  modalImg.src = img.src;
+  modalImg.alt = img.alt;
+  $('#myModal').modal()
+}

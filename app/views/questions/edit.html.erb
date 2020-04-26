@@ -1,0 +1,44 @@
+<% provide(:title, 'Edit question') %>
+<% provide(:button_text, 'Save changes') %>
+<h1><%= @question.question %></h1>
+<div class="row">
+  <aside class="col-md-4">
+    <%= form_for(@question) do |f| %>
+      <%= render 'shared/error_messages', object: f.object %>
+
+      <%= f.label :question %>
+      <%= f.text_field :question, class: 'form-control' %>
+
+      <%= f.label :right_answer %>
+      <%= f.text_field :right_answer, class: 'form-control' %>
+
+      <%= f.submit yield(:button_text), class: "btn btn-primary" %>
+    <% end %>
+  </aside>
+
+  <div class="col-md-8">
+    <ul class="tests">
+      <% @answers.each_with_index do |answer, index| %>
+        <li>
+          <div id="name" ><%= "#{index+1}. " + answer.answer %></div>
+          <% if current_user.admin?  %>
+            <%= link_to "delete", answer, method: :delete,
+                          data: { confirm: "You sure?" } %>
+          <% end %>
+        </li>
+      <% end %>
+
+      <%= form_for(@answer) do |f| %>
+        <%= render 'shared/error_messages', object: f.object %>
+
+        <%= f.label "New answer" %>
+        <%= f.text_field :answer, class: 'form-control' %>
+
+        <%= hidden_field_tag(:question, @question.id) %>
+
+        <%= f.submit "Add", class: "btn btn-primary" %>
+      <% end %>
+
+    </ul>
+  </div>
+</div>

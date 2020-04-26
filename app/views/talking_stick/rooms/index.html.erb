@@ -1,0 +1,33 @@
+<%= link_to t(:new_room), talking_stick.new_room_path, class: 'btn btn-success pull-right' if current_user.admin?%>
+
+<% if @rooms %>
+  <h1><%= t(:listing_rooms) %></h1>
+  <table class="table">
+    <thead>
+    <tr>
+      <th><%= t(:name) %></th>
+      <th>Enter Room</th>
+      <th>Destroy Room</th>
+      <th colspan="3"></th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <% @rooms.each do |room| %>
+      <tr>
+        <td><%= room.name %></td>
+        <td><%= link_to 'Enter', talking_stick.room_path(room) %></td>
+        <td><%= link_to t(:destroy), talking_stick.room_path(room), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+<% elsif @room %>
+  <h2>Занятие готово. Нажмите кнопку, чтобы войти в комнату.</h2>
+  <%= button_to 'Войти', talking_stick.room_path(@room), method: :get, class: "btn btn-primary" %>
+<% else %>
+  <h3>В данный момент назначенных занятий нет.</h3>
+  <h3>Если у Вас назначено занятие, дождитесь пока преподаватель создаст комнату и обновите страницу.</h3>
+<% end%>
+
+<br>
